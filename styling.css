@@ -1,0 +1,15 @@
+
+.TitleCard {
+ 
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 1em;
+}
+
+.skills {
+ 
+  display: flex;
+  margin-left: 1em;
+
+}
