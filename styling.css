@@ -1,15 +1,94 @@
-
-.TitleCard {
- 
+body {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  margin: 1em;
+  flex-direction: column;
+  margin: 0px auto;
+  max-width: 900px;
+  font-family: 'Merriweather', serif;
 }
 
-.skills {
- 
+.Top {
   display: flex;
-  margin-left: 1em;
+  flex-direction: row;
+  justify-content: space-between; 
+  background-color: #457EAC66;
+  padding-top: 1em;
+  padding-bottom:1em;
+}
 
+.Name {
+  margin-left:1em;
+}
+
+.Name p {
+  margin-top: 0em;
+}
+
+.Name h1 {
+  margin-bottom: 0.3em;
+  font-size: 2.5em;
+}
+
+.Bottom {
+  display: flex;
+  flex-direction: row;
+}
+
+.Left {
+  background-color: #457EAC30;
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  padding-left:1em;
+  padding-right:1em;
+}
+
+.Left h2 {
+  text-align: center;
+  text-decoration: underline;
+  margin-top: 0.5em;
+  margin-bottom: 0em;
+}
+
+.Right {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+
+.Left h3 {
+  margin: 0.5em 0em;
+}
+
+.Skills ul {
+  margin-top: 0.5em;
+  display: flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+  padding-left: 0.5em;
+}
+
+.Skills li {
+  margin: 0 0.75em;
+}
+
+.ContactCard {
+  margin-right: 1em;
+}
+
+.ContactCard div {
+  margin: 0.25em 0;
+  display: flex;
+  flex-direction: row;
+}
+
+.ContactCard span {
+  margin-left: 0.5em;
+}
+
+.Main {
+  margin-left: 1.5em;
+}
+
+.CertCard, .EduCard {
+  margin-top: 0.5em;
 }
