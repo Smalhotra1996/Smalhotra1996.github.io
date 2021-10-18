@@ -16,7 +16,7 @@ body {
 }
 
 .Top h1 {
-  text-transform: capitalize;
+  text-transform: uppercase;
 }
 
 .Top h1 span {
