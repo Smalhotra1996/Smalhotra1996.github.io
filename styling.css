@@ -12,13 +12,18 @@ body {
   flex-direction: row;
   justify-content: space-between;
   background-color: #e9ede8;
-  height: 15%;
+  height: 12%;
+}
+
+.Top h1 span {
+  color:#066600;
 }
 
 .ContactCard {
   margin-right: 1em;
   margin-top: auto;
   margin-bottom: auto;
+  font-size: small;
 }
 
 .ContactCard div {
@@ -57,7 +62,7 @@ h2 {
 .Middle {
   display: flex;
   flex-direction: row;
-  height: 25%;
+  height: 24%;
   margin-top: 1em;
   margin-left: 1em;
   margin-right: 1em;
@@ -106,8 +111,8 @@ h2 {
 .Bottom {
   display: flex;
   flex-direction: column;
-  height: 60%;
-  margin-top: 1em;
+  height: 64%;
+  /* margin-top: 1em; */
   margin-left: 1em;
   margin-right: 1em;
 }
@@ -133,6 +138,11 @@ i {
   margin-bottom: 0.5em;
 }
 
+.WorkCard ul {
+  margin-block-start: 0.5em;
+  margin-block-end: 0.75em;
+}
+
 .WorkHeader {display: flex;flex-direction: row;justify-content: space-between;}
 
 .Certifications {
@@ -143,4 +153,23 @@ i {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+
+.EduCardHeader {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.25em;
+}
+
+.EduCard {
+  margin-top: 1em;
+}
+
+.ProjectCard {
+  margin-left: 1em;
+  margin-top: 0.75em;
+}
+
+.ProjectCard p {
+  margin-top: 0.5em;
 }
