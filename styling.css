@@ -126,6 +126,16 @@ h2 {
   margin-right: 1em;
 }
 
+.Bottom section {
+  margin-top: 2em;
+}
+
+@media print {
+  section.Experience {
+    margin-top: 8em;
+  }
+}
+
 .CertCard, .EduCard, .WorkCard {
   margin-top: 0.5em;
   margin-inline-start: 1em;
