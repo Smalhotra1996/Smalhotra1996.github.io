@@ -11,7 +11,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  background-color: #e9ede8;
+  background-color: #dce9d9;
   height: 12%;
 }
 
@@ -59,7 +59,7 @@ body {
 }
 
 h2 {
-  background-color: #e9ede8;
+  background-color: #dce9d9;
   padding-block-start: 0.25em;
   padding-block-end: 0.25em;
   margin-block-start: 0em;
