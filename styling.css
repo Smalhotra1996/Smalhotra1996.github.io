@@ -130,11 +130,11 @@ h2 {
   margin-top: 2em;
 }
 
-@media print {
+/* @media print {
   section.Experience {
     margin-top: 8em;
   }
-}
+} */
 
 .CertCard, .EduCard, .WorkCard {
   margin-top: 0.5em;
@@ -168,9 +168,9 @@ i {
   justify-content: space-between;
 }
 
-.Certifications {
+/* .Certifications {
   margin-bottom: 1em;
-}
+} */
 
 .CertCard {
   display: flex;
