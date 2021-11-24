@@ -1,1 +1,0 @@
-const greeting = isLoggedIn ? <Hello/> : null;
