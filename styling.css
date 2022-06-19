@@ -131,8 +131,8 @@ h2 {
 }
 
 @media print {
-  section.Experience {
-    margin-top: 8em;
+  section.Projects {
+    margin-top: 5em;
   }
 }
 
