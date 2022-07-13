@@ -170,6 +170,13 @@ i {
   justify-content: space-between;
 }
 
+.Publications {
+  display: flex;
+  flex-direction: row;
+  margin-top: 0.5em;
+  justify-content: space-between;
+}
+
 /* .Certifications {
   margin-bottom: 1em;
 } */
@@ -177,6 +184,13 @@ i {
 .CertCard {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+}
+
+.activity {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1em;
   justify-content: space-between;
 }
 
