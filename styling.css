@@ -130,12 +130,6 @@ h2 {
   margin-top: 0.8em;
 }
 
-@media print {
-  section.Projects {
-    margin-top: 5em;
-  }
-}
-
 .CertCard,
 .EduCard,
 .WorkCard {
@@ -214,4 +208,16 @@ i {
 }
 .jwd {
   margin-bottom: 1em;
+}
+
+@media print {
+  #Breaks {
+    margin-top: 4.5em;
+  }
+  #Break {
+    margin-top: 6em;
+  }
+  #Breaks_2 {
+    margin-top: 2em;
+  }
 }
