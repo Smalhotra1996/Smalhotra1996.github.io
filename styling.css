@@ -97,7 +97,6 @@ h2 {
 
 .SkillsBody {
   display: flex;
-  flex-direction: column;
   justify-content: space-around;
 }
 
@@ -129,7 +128,10 @@ h2 {
 
 @media print {
   section.Projects {
-    margin-top: 5em;
+    margin-top: 2em;
+  }
+  .Assistance {
+    margin-top: 4em;
   }
 }
 
@@ -171,6 +173,7 @@ i {
   display: flex;
   flex-direction: row;
   margin-top: 0.5em;
+  margin-left: 1em;
   justify-content: space-between;
 }
 
@@ -206,6 +209,9 @@ i {
   margin-top: 0.75em;
 }
 
+.Tools {
+  width: 50%;
+}
 .ProjectCard p {
   margin-top: 0.5em;
 }
