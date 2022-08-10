@@ -128,7 +128,7 @@ h2 {
 
 @media print {
   section.Projects {
-    margin-top: 0em;
+    margin-top: 5em;
   }
 }
 
@@ -220,4 +220,16 @@ i {
 }
 .jwd {
   margin-bottom: 1em;
+}
+
+@media print {
+  #Breaks {
+    margin-top: 4.5em;
+  }
+  #Break {
+    margin-top: 6em;
+  }
+  #Breaks_2 {
+    margin-top: 2em;
+  }
 }
