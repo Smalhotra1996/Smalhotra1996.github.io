@@ -2,7 +2,7 @@ body {
   display: flex;
   flex-direction: column;
   margin: 0px auto;
-  font-family: "Merriweather", serif;
+  font-family: "Public Sans", Arial;
   height: 11in;
   width: 8.5in;
 }
@@ -13,6 +13,7 @@ body {
   justify-content: space-between;
   background-color: #dce9d9;
   height: 12%;
+  border-bottom: solid black 2px;
 }
 
 .Top h1 {
@@ -68,32 +69,34 @@ h2 {
   color: #066600;
 }
 
-.Middle {
+.LeftSide h2 {
+  padding-left: 0em;
+}
+
+.Bottom {
   display: flex;
   flex-direction: row;
-  height: 24%;
-  margin-top: 1em;
-  margin-left: 1em;
-  margin-right: 1em;
 }
 
-.Left {
+.LeftSide {
   display: flex;
   flex-direction: column;
-  width: 45%;
   height: 100%;
-  margin-right: 0.5em;
-  margin-left: 0px;
+  width: calc(25% - 2px);
+  padding-top: 1em;
+  padding-left: 1em;
+  padding-right: 1em;
+  background-color: #dce9d9;
+  border-right: black solid 2px;
 }
 
-.Left h3 {
+.LeftSide h3 {
   margin: 0.5em 0em;
-  font-size: 1.1em;
+  font-size: 1em;
 }
 
 .SkillsBody {
   display: flex;
-  flex-direction: row;
   justify-content: space-around;
 }
 
@@ -109,25 +112,24 @@ h2 {
   margin: 0 0.75em;
 }
 
-.Right {
+.RightSide {
   display: flex;
   flex-direction: column;
-  width: 55%;
-  margin-left: 0.5em;
-  margin-right: 0px;
-}
-
-.Bottom {
-  display: flex;
-  flex-direction: column;
-  height: 64%;
+  height: 100%;
+  width: 75%;
   /* margin-top: 1em; */
-  margin-left: 1em;
-  margin-right: 1em;
+  /* margin-left: 1em;
+  margin-right: 1em; */
 }
 
-.Bottom section {
-  margin-top: 0.8em;
+.RightSide section {
+  /* margin-top: 2em; */
+}
+
+@media print {
+  section.Projects {
+    margin-top: 5em;
+  }
 }
 
 .CertCard,
@@ -168,6 +170,7 @@ i {
   display: flex;
   flex-direction: row;
   margin-top: 0.5em;
+  margin-left: 1em;
   justify-content: space-between;
 }
 
@@ -184,7 +187,7 @@ i {
 .activity {
   display: flex;
   flex-direction: column;
-  /* margin-top: 1em; */
+  margin-top: 1em;
   justify-content: space-between;
 }
 
@@ -203,6 +206,15 @@ i {
   margin-top: 0.75em;
 }
 
+.ToolsList {
+  display: block !important;
+  width: 100%;
+  columns: 2;
+}
+
+.Tools {
+  width: 65%;
+}
 .ProjectCard p {
   margin-top: 0.5em;
 }
