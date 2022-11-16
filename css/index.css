@@ -139,6 +139,11 @@ h2 {
   margin-inline-start: 1em;
 }
 
+.ProgCard {
+  margin-top: 0.5em;
+  margin-inline-start: 1em;
+}
+
 i {
   margin: 0;
   width: 20px;
