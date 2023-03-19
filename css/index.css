@@ -104,6 +104,16 @@ h2 {
   justify-content: space-around;
 }
 
+.Languages h3 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.Tools h3 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
 .Skills ul {
   margin-top: 0.5em;
   display: flex;
@@ -130,9 +140,27 @@ h2 {
   /* margin-top: 2em; */
 }
 
+.ForPrint {
+  visibility: collapse;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+}
+
 @media print {
   section.Projects {
-    margin-top: 5em;
+    /* margin-bottom: 5em; */
+  }
+  .ForPrint {
+    visibility: inherit;
+  }
+  .ForWeb {
+    visibility: collapse;
+    overflow: hidden;
   }
 }
 
@@ -173,6 +201,12 @@ i {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  width: 100%;
+}
+
+.ForPrint a,
+.WorkRight {
+  padding-right: 5px;
 }
 
 .Publications {
@@ -181,6 +215,7 @@ i {
   margin-top: 0.5em;
   margin-left: 1em;
   justify-content: space-between;
+  position: relative;
 }
 
 /* .Certifications {
@@ -211,6 +246,7 @@ i {
 }
 
 .ProjectCard {
+  position: relative;
   margin-left: 1em;
   margin-top: 0.75em;
 }
